@@ -16,7 +16,7 @@ function updateDisplay(input)
     console.log(currentDisplay);
             if(input=="C")
             {
-                output.value="";
+                output.value=" ";
             }
             else if(input!="C"&&input!="=")
             {
