@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            margin: 0;
+            position: relative;
+        }
+        #backimg{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        }
+        table{
+        background-color:rgb(84, 82, 82);
+        width:300px;
+        height:400px;
+        position:absolute;
+        left:40%;
+        bottom:15%;
+        padding: 0;
+        }
+        tr{
+            padding: 0;
+        }
+        td{
+            padding: 0;
+        }
+        #text1{
+        width:100%;
+        height:50px;
+        border-radius: 2px;
+        background-color:white;
+        font-size:44px;
+        font-size: 35px;
+        color: black;
+        }
+        #text2{
+            width:100%;
+            border:none;
+            outline: none;
+        }
+        input[type=button]{
+        font-size: 20px;
+        background-color: rgb(84, 82, 82);
+        color:white;
+        border: none;
+        cursor:pointer;
+        padding:10px;
+        margin:10px;
+       }
+
+    </style>
+</head>
+<body >
+     <img id="backimg"src="images/background.jpg">
+     <table id="table">
+        
+
+         <tr id="text1">
+            <td colspan="4" >
+                <input id="text2" type="text" value="">
+            </td>
+            
+         </tr>
+
+         <tr>
+            <td  id="v7"><input type="button" value="7"></td>
+            <td  id="v8"><input type="button" value="8"></td>
+            <td id="v9"><input type="button" value="9"></td>
+            <td id="add"><input type="button" value="+"></td>
+         </tr>
+         <tr>
+            <td id="v4"><input type="button" value="4"></td>
+            <td id="v5"><input type="button" value="5"></td>
+            <td id="v6"><input type="button" value="6"></td>
+            <td id="sub"><input type="button" value="-"></td>
+         </tr>
+         <tr>
+            <td id="v1"><input type="button" value="1"></td>
+            <td id="v2"><input type="button" value="2"></td>
+            <td id="v3"><input type="button" value="3"></td>
+            <td id="mul"><input type="button" value="*"></td>
+         </tr>
+         <tr>
+            <td id="clear"><input type="button" value="C"></td>
+            <td id="v0"><input type="button" value="0"></td>
+            <td id="equal"><input type="button" value="="></td>
+            <td id="div"><input type="button" value="/"></td>
+         </tr>
+         
+          
+     </table>
+</body>
+<script src="index.js"></script>
+</html>
